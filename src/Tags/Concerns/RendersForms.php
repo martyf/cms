@@ -138,7 +138,7 @@ trait RendersForms
             'default' => $field->value() ?? $field->defaultValue(),
             'old' => old($field->handle()),
             'value' => $value,
-        ], $field->fieldtype()->extraRenderableFieldData($field->config(), method_exists($this, 'form') ? $this->form()->handle() : null));
+        ], $field->fieldtype()->extraRenderableFieldData(method_exists($this, 'form') ? $this->form() : null));
 
         if ($manipulateDataCallback instanceof Closure) {
             $data = $manipulateDataCallback($data, $field);
