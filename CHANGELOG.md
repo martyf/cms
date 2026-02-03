@@ -1,5 +1,13 @@
 # Release Notes
 
+## 5.73.4 (2026-02-03)
+
+### What's fixed
+- Handle `0` values in text fields and `null` string in slugs [#13786](https://github.com/statamic/cms/issues/13786) by @joshuablum
+- Fix multi-site URL invalidation in `ApplicationCacher` [#13793](https://github.com/statamic/cms/issues/13793) by @joshuablum
+
+
+
 ## 5.73.3 (2026-01-30)
 
 ### What's fixed
