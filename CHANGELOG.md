@@ -1,5 +1,11 @@
 # Release Notes
 
+## 6.2.1 (2026-02-03)
+
+- Fix markdown fieldtype error when theres no container [#13809](https://github.com/statamic/cms/issues/13809) by @jasonvarga
+
+
+
 ## 6.2.0 (2026-02-03)
 
 ### What's new
