@@ -416,6 +416,9 @@ export default {
 
             if (JSON.stringify(json) === JSON.stringify(oldJson)) return;
 
+            // Temporarily disable debouncing.
+            this.debounceNextUpdate = false;
+
             this.debounceNextUpdate
                 ? this.updateDebounced(json)
                 : this.update(json);
