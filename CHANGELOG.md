@@ -1,5 +1,12 @@
 # Release Notes
 
+## 5.73.5 (2026-02-03)
+
+### What's fixed
+- Add auth to asset routes [#13810](https://github.com/statamic/cms/issues/13810) by @jasonvarga
+
+
+
 ## 5.73.4 (2026-02-03)
 
 ### What's fixed
