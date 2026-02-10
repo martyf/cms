@@ -389,7 +389,7 @@ class Tags extends BaseTags
      */
     protected function addToDebugBar($data, $formHandle)
     {
-        if (! function_exists('debugbar') || ! class_exists(ConfigCollector::class)) {
+        if (! config('debugbar.enabled') && ! function_exists('debugbar') || ! class_exists(ConfigCollector::class)) {
             return;
         }
 
