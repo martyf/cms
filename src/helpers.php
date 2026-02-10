@@ -1,6 +1,6 @@
 <?php
 
-use Barryvdh\Debugbar\LaravelDebugbar;
+use Fruitcake\LaravelDebugbar\LaravelDebugbar;
 use Statamic\Facades\Path;
 use Statamic\Statamic;
 
